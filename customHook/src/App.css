@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+input{
+  display: block;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.error{
+  color: red;
+  margin-top: -30px;
+}
+

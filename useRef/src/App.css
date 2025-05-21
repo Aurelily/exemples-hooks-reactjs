@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} 
+
+.container{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content{
+  background-color: rgb(197, 197, 197);
+  padding: 20px;
+  border-radius: 20px;
+  display: none;
+  position: absolute;
+  width: 80%;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  transition: left 0.5s ease; 
+}
+
+
+.cat-container{
+  width: 300px;
+  background-color: cadetblue;
+}
